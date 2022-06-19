@@ -1,0 +1,63 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* ************** NAVBAR ************** */
+nav {
+    overflow: hidden;
+    background-color:rgb(255, 127, 53);
+    position: fixed;
+    width: 100%;
+    opacity: 0,9;
+}
+header li {
+    float: right;
+    font-size: 1,2em; 
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    float: left;
+}
+/* *************** IMAGE PRINCIPALE *************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background-color:rgb(242, 255, 62);
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 6em;
+}
+/* *************** GENERALE *************** */
+p {
+    text-align: center;
+}
